@@ -1,9 +1,13 @@
 exports.buyAirtime = async (phone, amount) => {
-    //You can create your airtime purchase logic here
-    return true;
-}
+  //You can create your airtime purchase logic here
+  return true;
+};
 
-exports.fetchBalance = async (phone) => {
-    //You can check for account balance here
-    return 10;
-}
+exports.fetchBalance = async (req, res) => {
+  //You can check for account balance here
+  //   const data = {
+  //     id: "1",
+  //     name: "Nshuti",
+  //     district: "Gasabo",
+  //   };
+};
