@@ -3,11 +3,7 @@ exports.buyAirtime = async (phone, amount) => {
   return true;
 };
 
-exports.fetchBalance = async (req, res) => {
+exports.fetchBalance = async (phone) => {
   //You can check for account balance here
-  //   const data = {
-  //     id: "1",
-  //     name: "Nshuti",
-  //     district: "Gasabo",
-  //   };
+  return 10;
 };
